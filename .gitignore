@@ -111,7 +111,9 @@ Temp/
 *.DotSettings.user
 
 # Пакеты и настройки
-Packages/*-lock.json
+!Packages/manifest.json
+!Packages/packages-lock.json
+!Packages/
 
 # Папка для Unity-кеша пакетов
 Library/PackageCache/
